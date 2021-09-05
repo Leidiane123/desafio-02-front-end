@@ -1,0 +1,53 @@
+body{
+    --movie-texto:#FBCD6E;
+    
+    --cor-de-acento1:#E183C8;
+    --cor-de-acento2:#A785ED;
+    background-color: #fbfafd;
+}
+
+.movie__rating{
+    color: var(--movie-texto);
+}
+.highlight__title{
+    color: var(--cor-de-acento1);
+    font-size: 24px;
+    font-weight: 700;
+}
+.highlight__launch,.highlight__genres{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+.highlight__description{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+.highlight__rating{
+    color:var(--cor-de-acento2);
+    font-size: 24px;
+    font-weight: 700;
+}
+.modal__genre{
+    background-color: var(--cor-de-acento1);
+}
+.modal__average{
+    background-color: var(--cor-de-acento2);
+}
+
+.font01{
+    font-family: "Manrope";
+    font-style: normal;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
